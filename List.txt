@@ -1,0 +1,22 @@
+#define list
+items = [2,3,8,7,8,4,13,9]
+print(items)
+
+#change element in list 
+items[1] = 85
+items[3] = 65
+items[5] = 45
+
+print(items)
+
+# List indexing
+print(items[0])
+print(items[2])
+print(items[4])
+
+#output
+[2, 3, 8, 7, 8, 4, 13, 9]
+[2, 85, 8, 65, 8, 45, 13, 9]
+2
+8
+8
