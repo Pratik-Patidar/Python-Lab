@@ -1,0 +1,29 @@
+# just provide a value and entered value prints
+print(input())
+
+# provide another value
+var = input()
+print("Your input is: ", x)
+
+# prompting message for input
+in1 = input("Enter a value: ")
+in2 = input("Enter another value: ")
+in3 = input("Enter another value: ")
+
+# printing values
+print("Input 1 =", in1)
+print("Input 2 =", in2)
+print("Input 3 =", in3)
+
+Output:
+4
+4
+5
+Your input is:  5
+Enter a value: 4
+Enter another value: 7
+Enter another value: 6
+Input 1 = 4
+Input 2 = 7
+Input 3 = 6
+> 
