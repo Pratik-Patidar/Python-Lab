@@ -3,7 +3,7 @@ print(input())
 
 # provide another value
 var = input()
-print("Your input is: ", x)
+print("Your input is: ", var)
 
 # prompting message for input
 in1 = input("Enter a value: ")
