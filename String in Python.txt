@@ -1,17 +1,17 @@
-# defining strings in Python
-my_string = 'Hello'
-print(my_string)
-my_string = "Hello"
-print(my_string)
-my_string = '''Hello'''
-print(my_string)
+# defining string
+str1 = 'Hello'
+print(str1)
+str1 = "Hello"
+print(str1)
+str1 = '''Hello'''
+print(str1)
 
 # triple quotes string can extend multiple lines
-my_string = """Hello, welcome to the world of Python"""
-print(my_string)
+str1 = """Hello guys"""
+print(str1)
 
 Output:-
 Hello
 Hello
 Hello
-Hello, welcome to the world of Python
+Hello guys
