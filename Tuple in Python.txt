@@ -1,0 +1,45 @@
+
+# Empty tuple
+tup1 = ()
+print(tup1)
+
+# Tuple having integers
+tup1 = (1, 2, 3)
+print(tup1)
+
+# tuple with mixed datatypes
+tup1 = (1, "Hi", 2, 3)
+print(tup1)
+
+# nested tuple
+tup1 = ("mouse", [6, 5, 4], (1, 2, 3))
+print(tup1)
+tup1 = 3, 4, "ball"
+print(tup1)
+
+# tuple unpacking is also possible
+a, b, c = tup1
+
+print(a)      
+print(b)      
+print(c)
+
+#Access Tuple Elements
+#1. Indexing
+tup1 = ('p','r','a','t','i','k')
+print(tup1[0]) 
+print(tup1[5])
+
+
+Output:
+()
+(1, 2, 3)
+(1, 'Hi', 2, 3)
+('mouse', [6, 5, 4], (1, 2, 3))
+(3, 4, 'ball')
+3
+4
+ball
+p
+k
+
